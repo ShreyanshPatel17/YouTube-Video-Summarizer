@@ -63,14 +63,6 @@ youtube-video-summarizer/
 ├── requirements.txt
 ├── .env
 ├── summary.pdf
-│
-├── assets/
-│   ├── homepage.png
-│   ├── thumbnail.png
-│   ├── transcript.png
-│   ├── summary.png
-│   └── pdf-download.png
-│
 └── README.md
 ```
 
@@ -81,10 +73,6 @@ youtube-video-summarizer/
 ## Step 1 — User Inputs YouTube URL
 
 The user enters a YouTube video link into the Streamlit interface and selects the desired summary length.
-
-```markdown
-![Homepage](assets/homepage.png)
-```
 
 ---
 
@@ -135,17 +123,11 @@ Hello everyone, welcome to AI tutorial. Today we learn CNN.
 
 Regex-based sentence formatting and capitalization.
 
-```markdown
-![Transcript](assets/transcript.png)
-```
-
 ---
 
 ## Step 4 — Select Summary length
 
-```markdown
-![Summary](assets/summary.png)
-```
+Select the summary length as per required as a count of words.
 
 ---
 
@@ -158,10 +140,6 @@ Gemini generates:
 - 📝 Summary
 - ❓ 5 Questions
 
-```markdown
-![Summary](assets/summary.png)
-```
-
 ---
 
 ## Step 6 — PDF Generation
@@ -169,10 +147,6 @@ Gemini generates:
 The generated summary is converted into a downloadable PDF using:
 
 - `FPDF`
-
-```markdown
-![PDF Download](assets/pdf-download.png)
-```
 
 ---
 
